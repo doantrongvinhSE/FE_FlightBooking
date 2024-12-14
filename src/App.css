@@ -1,0 +1,37 @@
+.custom-tabs .ant-tabs-nav::before {
+  border: none !important;
+}
+
+/* Tắt thanh ink bar */
+.custom-tabs .ant-tabs-ink-bar {
+  display: none !important;
+}
+
+:where(.css-dev-only-do-not-override-1wwf28x).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+    margin: 0 0 0 15px;
+}
+
+/* Tab đang chọn */
+.custom-tabs .ant-tabs-tab-active .One-Way,
+.custom-tabs .ant-tabs-tab-active .Round-Trip {
+  background-color: #28a745; /* Màu nền xanh lá */
+  color: #ffffff; /* Màu chữ trắng */
+  border-radius: 100px;
+  padding: 15px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease; /* Thêm transition để mượt mà */
+}
+
+/* Tab chưa chọn */
+.custom-tabs .One-Way,
+.custom-tabs .Round-Trip {
+  background-color: #f1f1f1; /* Nền xám nhạt */
+  color: #000000; /* Chữ đen */
+  border-radius: 70px;
+  padding: 15px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease; /* Thêm transition để mượt mà */
+}
+
+
+.mail-icon {
+    font-size: 15px;    
+}
