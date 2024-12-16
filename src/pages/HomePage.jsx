@@ -1,12 +1,13 @@
 import React from "react";
 import { Button } from "antd";
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Banner from "../components/Banner";
+
+import Header from "../components/client/Header";
+import Banner from "../components/client/Banner";
 import { FaArrowRight } from "react-icons/fa6";
 
 import { MdTipsAndUpdates } from "react-icons/md";
+import Footer from "../components/client/Footer";
 
 function HomePage() {
   return (
@@ -219,7 +220,7 @@ function HomePage() {
       </div>
 
       {/* Footer */}
-      <Footer />
+      <Footer/>
     </div>
   );
 }
