@@ -40,7 +40,7 @@ function Header() {
               <p>Việt Nam • Tiếng Việt</p>
             </div>
             <button className="border-none flex space-x-2 float-right items-center text-lg shadow-none">
-              <p className="text-[#00558F]">Đăng nhập</p>
+              <a href="/login" className="text-[#00558F]">Đăng nhập</a>
               <p>|</p>
               <FaRegCircleUser className="text-2xl text-[#00558F]" />
             </button>
